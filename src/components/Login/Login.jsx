@@ -41,7 +41,7 @@ const Login = () => {
             <Mail size={18} className="input-icon" />
             <input 
               type="email" 
-              placeholder="Terminal ID (Email)" 
+              placeholder="Email" 
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required 
@@ -52,7 +52,7 @@ const Login = () => {
             <Lock size={18} className="input-icon" />
             <input 
               type="password" 
-              placeholder="Access Key" 
+              placeholder="Password" 
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               required 
@@ -65,7 +65,7 @@ const Login = () => {
             type="submit" 
             className="login-button"
           >
-            INITIALIZE SESSION <ChevronRight size={18} />
+            LOGIN<ChevronRight size={18} />
           </motion.button>
         </form>
 
